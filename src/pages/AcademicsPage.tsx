@@ -1,0 +1,9 @@
+const AcademicsPage = () => {
+    return (
+        <div>
+            <h1>Academics Page</h1>
+        </div>
+    )
+}
+
+export default AcademicsPage

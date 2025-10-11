@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root
+{
+    --primary-color: #FFF5F0;
+    --secondary-color: #FF8D4D;
+    --tertiary-color: #ffbe99;
+    --quaternary-color: #ffdecc;
+    --quinary-color: #0000;
+    --senary-color: #F5F5F5;
+    --septenary-color: #FF9E66;
+    --font-outfit: 'Outfit', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body
+{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--primary-color);
+}
