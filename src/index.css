@@ -30,3 +30,19 @@ body
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--primary-color);
 }
+
+.embla
+{
+    overflow: hidden;
+}
+
+.embla__container
+{
+    display: flex;
+}
+
+.embla__slide
+{
+    flex: 0 0 100%;
+    min-width: 0;
+}
