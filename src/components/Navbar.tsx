@@ -1,7 +1,7 @@
 import React from "react"
 import { IoArrowForwardOutline } from "react-icons/io5"
 
-const Navbar = React.memo(() => {
+const Navbar: React.FC = React.memo(() => {
     return (
         <div className='w-full'>
             <div className="bg-[var(--primary-color)] !p-2 w-full rounded-md border-2 border-black flex justify-center items-center overflow-hidden relative">

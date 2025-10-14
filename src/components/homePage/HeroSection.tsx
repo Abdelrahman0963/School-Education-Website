@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeroSection = () => {
+const HeroSection: React.FC = () => {
     interface stats {
         label: string;
         value: number;
@@ -20,7 +20,7 @@ const HeroSection = () => {
                     <p className="text-[.9rem]  md:text-[1rem] font-semibold relative  before:absolute before:bottom-[-.2rem] before:left-0 before:h-0.5 before:w-[17.2rem] before:bg-black">Welcome to Little Learners Academy</p>
                     <h2 className="md:text-[2.9rem] sm:text-[1.8rem] text-2xl font-bold " style={{ fontFamily: 'var(--font-raleway)' }}>Where Young Minds Blossom and <span className="text-[var(--secondary-color)]">Dreams Take Flight.</span></h2>
                     <p className="text-[1.2rem] font-medium">Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
-                    <div className="flex md:flex-row flex-col md:items-start items-center justify-center gap-8 w-full rounded-lg bg-[var(--quaternary-color)]  shadow-[7px_8px_6px_#ffbe99]  !px-6 !py-4 border-2 border-black">
+                    <div className="flex md:flex-row flex-col md:items-start items-center justify-center gap-8 w-full rounded-lg bg-[var(--quaternary-color)]  shadow-[7px_8px_6px_#ffbe99] !px-6 !py-4 border-2 border-black">
                         {statistics.map((stat, index) => (
                             <div key={index} className="flex flex-col items-start justify-center gap-1 !px-6 !py-2 relative before:absolute before:top-0 before:right-0 before:h-0.5 before:w-full before:bg-black first:before:hidden md:before:hidden">
                                 <h3 className="text-[2.5rem] font-bold ">{stat.value}+</h3>

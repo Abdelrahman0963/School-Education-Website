@@ -4,7 +4,7 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Navbar = React.lazy(() => import("./Navbar"))
 
-const Header = () => {
+const Header: React.FC = () => {
     const [active, setActive] = React.useState(0)
     const [isOpen, setIsOpen] = React.useState(false)
     const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768)

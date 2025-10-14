@@ -7,7 +7,7 @@ import { HiLifebuoy } from "react-icons/hi2";
 import { RiParentFill } from "react-icons/ri";
 
 
-const BenefitsSection = () => {
+const BenefitsSection: React.FC = () => {
     interface benefit {
         icon: React.ReactNode;
         title: string;
