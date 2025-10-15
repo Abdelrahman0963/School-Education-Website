@@ -55,14 +55,14 @@ const Carousel: React.FC = () => {
             <div className="w-full max-w-6xl relative flex items-center">
                 <button
                     onClick={scrollPrev}
-                    className={"absolute md:top-1/2 left-0 z-40 cursor-pointer -translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 left-[44%]" : "")}
+                    className={"absolute md:top-1/2 left-0 z-40 cursor-pointer -translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 left-[42%]" : "")}
                     aria-label="Previous"
                 >
                     <IoIosArrowRoundBack size={28} />
                 </button>
                 <button
                     onClick={scrollNext}
-                    className={"absolute md:top-1/2 right-0 z-40 cursor-pointer translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 right-[44%]" : "")}
+                    className={"absolute md:top-1/2 right-0 z-40 cursor-pointer translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 right-[42%]" : "")}
                     aria-label="Next"
                 >
                     <IoIosArrowRoundForward size={28} />
