@@ -34,7 +34,7 @@ const NavigateSection: React.FC = () => {
                 <h1 className='md:text-5xl text-2xl font-bold font[var(--font-raleway)]' style={{ fontFamily: 'var(--font-raleway)' }}>Navigate through our Pages</h1>
                 <p className='text-[16px] md:w-[70%] text-center text-[#333333]'>Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 !mt-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 !mt-8 !p-2 md:!p-4'>
                 {navigateData.map((item, index) => (
                     <div key={index} className='bg-white !p-16 rounded-lg border-2 border-black w-full  hover:scale-105 transition-transform duration-300 shadow-[7px_8px_4px_#000] flex flex-col items-center justify-center gap-8'>
                         <h1 className='text-4xl font-bold' style={{ fontFamily: 'var(--font-raleway)' }}>{item.title}</h1>
