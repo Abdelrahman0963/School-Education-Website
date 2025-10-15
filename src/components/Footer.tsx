@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
                         <span className="bg-[var(--tertiary-color)] hover:bg-[var(--secondary-color)] cursor-pointer !p-3 rounded-md flex items-center justify-center border-2 border-black"><FaLinkedin size={20} /></span>
                     </nav>
                 </div>
-                <nav className="w-full border-t-2 border-black !mt-2">
+                <nav className="w-full border-t-2 border-black flex flex-col items-center gap-4 !mt-2">
                     <p className="text-center text-[#333] text-[1rem] !mt-2">Copyright © [2025] Little Learners Academy. All rights reserved.</p>
                     <p className="text-center text-[#333] text-[1rem]">Coding by : <NavLink className="text-[var(--secondary-color)] bg-black !p-1 rounded-md " to={'https://abdelrahman-psi.vercel.app'}>@bdelrahman</NavLink></p>
                 </nav>

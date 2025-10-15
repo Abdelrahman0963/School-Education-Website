@@ -67,43 +67,47 @@ const FooterNav = () => {
         }
     ]
     return (
-        <div className="flex flex-col md:flex-row md:items-start items-start gap-4 !mt-0 md:!-mt-20 !px-4">
-            <nav className="home">
-                <p className=" font-semibold text-[1rem]">Home</p>
-                {homeData.map((item, index) => (
-                    <ul key={index}>
-                        <NavLink to={item.link || "/"} >
-                            <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
-                        </NavLink>
-                    </ul>))}
-            </nav>
-            <nav className="about">
-                <p className=" font-semibold text-[1rem]">About</p>
-                {aboutData.map((item, index) => (
-                    <ul key={index}>
-                        <NavLink to={item.link || "/"} >
-                            <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
-                        </NavLink>
-                    </ul>))}
-            </nav>
-            <nav className="academics">
-                <p className=" font-semibold text-[1rem]">Academics</p>
-                {academicsData.map((item, index) => (
-                    <ul key={index}>
-                        <NavLink to={item.link || "/"} >
-                            <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
-                        </NavLink>
-                    </ul>))}
-            </nav>
-            <nav className="contact">
-                <p className=" font-semibold text-[1rem]">Contact</p>
-                {contactData.map((item, index) => (
-                    <ul key={index}>
-                        <NavLink to={item.link || "/"} >
-                            <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
-                        </NavLink>
-                    </ul>))}
-            </nav>
+        <div className="!mt-0 md:!-mt-20 !px-4 md:flex md:flex-row">
+            <div className='flex flex-row  items-start gap-8 md:gap-4'>
+                <nav className="home">
+                    <p className=" font-semibold text-[1rem]">Home</p>
+                    {homeData.map((item, index) => (
+                        <ul key={index}>
+                            <NavLink to={item.link || "/"} >
+                                <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
+                            </NavLink>
+                        </ul>))}
+                </nav>
+                <nav className="about">
+                    <p className=" font-semibold text-[1rem]">About</p>
+                    {aboutData.map((item, index) => (
+                        <ul key={index}>
+                            <NavLink to={item.link || "/"} >
+                                <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
+                            </NavLink>
+                        </ul>))}
+                </nav>
+            </div>
+            <div className='flex flex-row  items-start gap-8  md:gap-4'>
+                <nav className="academics">
+                    <p className=" font-semibold text-[1rem]">Academics</p>
+                    {academicsData.map((item, index) => (
+                        <ul key={index}>
+                            <NavLink to={item.link || "/"} >
+                                <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
+                            </NavLink>
+                        </ul>))}
+                </nav>
+                <nav className="contact">
+                    <p className=" font-semibold text-[1rem]">Contact</p>
+                    {contactData.map((item, index) => (
+                        <ul key={index}>
+                            <NavLink to={item.link || "/"} >
+                                <li className="text-[#333] text-sm hover:underline cursor-pointer">{item.text}</li>
+                            </NavLink>
+                        </ul>))}
+                </nav>
+            </div>
         </div>
     )
 }
