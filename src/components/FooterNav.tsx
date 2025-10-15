@@ -1,7 +1,7 @@
-import React from 'react'
+import type React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const FooterNav = () => {
+const FooterNav: React.FC = () => {
     type HomeProps = {
         text?: string;
         link?: string;
