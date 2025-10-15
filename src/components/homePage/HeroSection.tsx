@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
         <section className="!p-4 md:!py-12 w-full h-full md:min-h-[calc(100vh-10rem)] overflow-hidden">
             <div className="md:!px-20  flex flex-col md:flex-row items-center  md:justify-between gap-8">
                 <picture className="md:w-1/2 w-full">
-                    <img className="rounded-md border-2 border-black" src="/public/images/Image Container.png" alt="home" loading="eager" />
+                    <img className="rounded-md border-2 border-black" src="/images/Image Container.png" alt="home" loading="eager" />
                 </picture>
                 <div className="flex flex-col gap-2 md:w-full w-full">
                     <p className="text-[.9rem]  md:text-[1rem] font-semibold relative  before:absolute before:bottom-[-.2rem] before:left-0 before:h-0.5 before:w-[17.2rem] before:bg-black">Welcome to Little Learners Academy</p>
