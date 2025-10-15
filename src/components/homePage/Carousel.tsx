@@ -55,24 +55,24 @@ const Carousel: React.FC = () => {
             <div className="w-full max-w-6xl relative flex items-center">
                 <button
                     onClick={scrollPrev}
-                    className={"absolute md:top-1/2 left-0 z-40 cursor-pointer -translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 left-[45%]" : "")}
+                    className={"absolute md:top-1/2 left-0 z-40 cursor-pointer -translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 left-[44%]" : "")}
                     aria-label="Previous"
                 >
                     <IoIosArrowRoundBack size={28} />
                 </button>
                 <button
                     onClick={scrollNext}
-                    className={"absolute md:top-1/2 right-0 z-40 cursor-pointer translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 right-[45%]" : "")}
+                    className={"absolute md:top-1/2 right-0 z-40 cursor-pointer translate-x-1/2 bg-white border border-black rounded-md !p-2 shadow-md hover:bg-gray-100" + (isMobile ? " bottom-0 right-[44%]" : "")}
                     aria-label="Next"
                 >
                     <IoIosArrowRoundForward size={28} />
                 </button>
                 <div className="w-full overflow-hidden !px-4 md:!p-16" ref={emblaRef}>
-                    <div className="flex gap-6 !px-4">
+                    <div className="flex gap-4 md:gap-8 !px-4">
                         {carouselItems.map((item, i) => (
                             <div
                                 key={i}
-                                className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] bg-white rounded-lg shadow-[5px_5px_0_#000] !p-6 flex flex-col items-center text-center"
+                                className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%]  bg-white rounded-lg shadow-[5px_5px_0_#000] !p-6 flex flex-col items-center text-center"
                             >
                                 <div className="w-16 h-16 bg-[var(--primary-color)] border border-black rounded-full flex justify-center items-center !mb-3">
                                     {item.images || <FaUserTie size={30} />}
