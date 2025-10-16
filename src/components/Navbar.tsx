@@ -11,10 +11,10 @@ const Navbar: React.FC = React.memo(() => {
                 <img className="absolute top-0 left-0 md:left-96 w-11" src="/icons/AbstractDesign.png" alt="icon" loading="lazy" />
                 <img className="absolute bottom-0 right-0 md:right-[26rem] w-8 z-20" src="/icons/Group.png" alt="icon" loading="lazy" />
                 <div className="absolute bottom-0 h-3 w-[calc(100%-200px)] rounded-t-full bg-gradient-to-r from-[var(--tertiary-color)] via-[var(--quaternary-color)] to-[var(--tertiary-color)]"></div>
-                <nav className="relative w-full flex justify-center items-center gap-2">
+                <div className="relative w-full flex justify-center items-center gap-2">
                     <h1>Admission is Open, Grab your seat now</h1>
                     <IoArrowForwardOutline className="!mt-1" />
-                </nav>
+                </div>
             </div>
         </div>
     )

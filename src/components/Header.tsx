@@ -30,10 +30,10 @@ const Header: React.FC = () => {
         <header className="!p-4 w-full flex flex-col gap-2 items-center justify-center relative">
             <Navbar />
             <div className="bg-white w-full h-16 rounded-md border-2 border-black flex items-center justify-between relative overflow-hidden">
-                <nav className="!py-4 !px-6 h-full flex gap-2 items-center justify-center bg-[var(--secondary-color)] border-r-2 border-black">
+                <picture className="!py-4 !px-6 h-full flex gap-2 items-center justify-center bg-[var(--secondary-color)] border-r-2 border-black">
                     <img className="w-7" src="/logo/shape-14.png" alt="logo" loading="eager" />
-                    <p className="font-bold">Little Learners</p>
-                </nav>
+                    <img className="w-28" src="/logo/Text Button.png" alt="Little Learners" loading="eager" />
+                </picture>
                 <nav className="h-full hidden md:flex items-center justify-center ">
                     <ul className="h-full flex md:flex-row flex-col  items-center">
                         {navbarLink.map((item, index) => (

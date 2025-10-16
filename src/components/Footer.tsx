@@ -30,10 +30,10 @@ const Footer: React.FC = () => {
             <div className="bg-white md:!p-12 !p-4 w-full border-2 flex flex-col items-start md:items-center  justify-center border-black  rounded-md shadow-[7px_8px_6px_#000]">
                 <div className="flex md:flex-row flex-col items-start md:items-center md:justify-between gap-8">
                     <div className="flex flex-col md:items-start items-center gap-4 md:!mr-20 !p-4">
-                        <nav className="flex items-center gap-2 md:mb-0 mb-4">
+                        <picture className="flex items-center gap-2 md:mb-0 mb-4">
                             <img className="w-10" src="/logo/shape-14.png" alt="logo" loading="lazy" />
                             <img className="w-32" src="/logo/Text Button.png" alt="Little Learners" loading="lazy" />
-                        </nav>
+                        </picture>
                         <p className="text-[#333] text-[1rem]">We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
                         <div className="flex flex-col items-start w-full gap-4 md:gap-6">
                             {contactData.map((item, index) => (

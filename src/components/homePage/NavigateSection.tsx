@@ -30,7 +30,7 @@ const NavigateSection: React.FC = () => {
     return (
         <section className='md:!px-20 md:!mt-20 !p-4 h-full md:min-h-[calc(100vh-10rem)] w-full overflow-hidden'>
             <div className="flex flex-col items-center gap-4">
-                <nav className='bg-white border-2 !p-2 rounded-md'><p className='text-[#333333] text-sm'>Explore More</p></nav>
+                <div className='bg-white border-2 !p-2 rounded-md'><p className='text-[#333333] text-sm'>Explore More</p></div>
                 <h1 className='md:text-5xl text-2xl font-bold font[var(--font-raleway)]' style={{ fontFamily: 'var(--font-raleway)' }}>Navigate through our Pages</h1>
                 <p className='text-[16px] md:w-[70%] text-center text-[#333333]'>Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school</p>
             </div>
