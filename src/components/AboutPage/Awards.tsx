@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from './Carousel'
+const Carousel = React.lazy(() => import('./Carousel'));
 const Awards: React.FC = () => {
 
     return (
