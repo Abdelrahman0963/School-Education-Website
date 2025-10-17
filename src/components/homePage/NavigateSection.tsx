@@ -39,12 +39,12 @@ const NavigateSection: React.FC = () => {
                     <div key={index} className='bg-white !p-16 rounded-lg border-2 border-black w-full  hover:scale-105 transition-transform duration-300 shadow-[7px_8px_4px_#000] flex flex-col items-center justify-center gap-8'>
                         <h1 className='text-4xl font-bold' style={{ fontFamily: 'var(--font-raleway)' }}>{item.title}</h1>
                         <div className='flex items-center gap-2'>
-                            <div className=' relative  border-[var(--tertiary-color)] bg-black !p-[1px]  border-2 w-12 h-0.5 before:absolute before:-left-0.5   before:-bottom-1.5 before:h-4 before:w-4 before:rounded-full before:bg-white before:border-2 before:border-black'></div>
-                            <canvas className=' border-[var(--tertiary-color)] !p-[1px] bg-black border-2 w-12 h-0.5'></canvas>
-                            <canvas className=' border-[var(--tertiary-color)] !p-[1px] bg-black border-2 w-12 h-0.5'></canvas>
-                            <canvas className=' border-[var(--tertiary-color)] !p-[1px] bg-black border-2 w-12 h-0.5'></canvas>
-                            <canvas className=' border-[var(--tertiary-color)]  bg-black !p-[1px] border-2 w-12 h-0.5'></canvas>
-                            <div className=' relative border-[var(--tertiary-color)] bg-black !p-[1px] border-2 w-12 h-0.5 after:absolute after:-right-0.5 after:-bottom-1.5 after:h-4 after:w-4 after:rounded-full after:bg-white after:border-2 after:border-black'></div>
+                            <div className=' relative  border-[var(--tertiary-color)] bg-black !p-[1px]  border-2 w-10 md:w-12 h-0.5 before:absolute before:-left-0.5   before:-bottom-1.5 before:h-4 before:w-4 before:rounded-full before:bg-white before:border-2 before:border-black'></div>
+                            <canvas className=' border-[var(--tertiary-color)] !p-[1px] bg-black border-2 w-10 md:w-12 h-0.5'></canvas>
+                            <canvas className=' border-[var(--tertiary-color)] !p-[1px] bg-black border-2 w-10 md:w-12 h-0.5'></canvas>
+                            <canvas className=' border-[var(--tertiary-color)] !p-[1px] bg-black border-2 w-10 md:w-12 h-0.5'></canvas>
+                            <canvas className=' border-[var(--tertiary-color)]  bg-black !p-[1px] border-2 w-10 md:w-12 h-0.5'></canvas>
+                            <div className=' relative border-[var(--tertiary-color)] bg-black !p-[1px] border-2 w-10 md:w-12 h-0.5 after:absolute after:-right-0.5 after:-bottom-1.5 after:h-4 after:w-4 after:rounded-full after:bg-white after:border-2 after:border-black'></div>
                         </div>
                         <p className='text-[#333333] text-[14px] text-center'>{item.description}</p>
                         <NavLink to={item.link} className='w-full !mt-4'>

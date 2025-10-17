@@ -4,7 +4,9 @@ const Introduction: React.FC = () => {
     return (
         <section className='!p-4 md:!py-8 w-full h-full md:min-h-[calc(100vh-10rem)] overflow-hidden'>
             <div className="bg-white w-full h-full relative border-2 border-black shadow-[7px_8px_4px_#000] rounded-lg">
-                <img className="w-32 absolute top-0 left-0" src="/public/images/Abstract Design.png" alt="abstract" loading="lazy" />
+                <picture className='absolute top-0 left-0'>
+                    <img className="w-32 " src="/public/images/Abstract Design.png" alt="abstract" loading="lazy" />
+                </picture>
                 <div className="flex items-center md:flex-row flex-col justify-center md:justify-between gap-4 md:gap-8 !p-4 md:!mt-0 !mt-12 md:!p-20">
                     <div className='flex flex-col justify-cente items-center md:items-start md:text-left text-center md:w-1/2 w-full  gap-4'>
                         <nav className='bg-white border-2 !p-2 rounded-md w-20'><p className='text-[#333333] text-sm'>Overview</p></nav>
