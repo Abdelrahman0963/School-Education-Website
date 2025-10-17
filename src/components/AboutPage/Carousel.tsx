@@ -62,7 +62,7 @@ const Carousel: React.FC = () => {
         <div className="!mt-16 flex flex-col items-center w-full">
             <div className="w-full max-w-6xl relative">
                 <div className="scrollbar-hide " ref={emblaRef}>
-                    <div className="embla__container relative z-50 flex gap-4 md:gap-6 !px-10 w-full h-full">
+                    <div className="embla__container relative z-50 flex  gap-4 md:gap-6 !px-10 w-full h-full">
                         {awardsData.map((award, index) => (
                             <div
                                 key={index}
