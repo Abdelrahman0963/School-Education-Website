@@ -62,21 +62,21 @@ const Carousel: React.FC = () => {
         <div className="!mt-16 flex flex-col items-center w-full">
             <div className="w-full max-w-6xl relative">
                 <div className="scrollbar-hide " ref={emblaRef}>
-                    <div className="embla__container relative z-50 flex  gap-4 md:gap-6 !px-10 w-full h-full">
+                    <div className="embla__container  gap-4 md:gap-6 !px-10 w-full h-full">
                         {awardsData.map((award, index) => (
                             <div
                                 key={index}
-                                className="relative flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%]  bg-white rounded-lg border-2 border-black shadow-[5px_5px_0_#000] !p-5 flex flex-col items-center text-center "
+                                className="relative flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%]  bg-white rounded-lg border-2 border-black shadow-[5px_5px_0_#000] !p-6  flex flex-col items-center text-center "
                             >
                                 <div className="flex flex-col items-center !p-6">
                                     <div className="text-[#333333] absolute left-4 z-50 -top-5 !p-1 rounded-md border-2 border-black bg-[var(--tertiary-color)]">{award.icon}</div>
                                     <h2
-                                        className="md:text-2xl text-xl font-bold !mt-4 text-center"
+                                        className="text-xl font-bold !mt-4 text-start"
                                         style={{ fontFamily: 'var(--font-raleway)' }}
                                     >
                                         {award.title}
                                     </h2>
-                                    <p className="!mt-4 text-[#333333] text-center text-sm md:text-[16px]">
+                                    <p className="!mt-4 text-[#333333] text-start text-sm md:text-[16px]">
                                         {award.description}
                                     </p>
                                 </div>
