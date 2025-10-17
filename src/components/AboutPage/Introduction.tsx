@@ -9,7 +9,7 @@ const Introduction: React.FC = () => {
                 </picture>
                 <div className="flex items-center md:flex-row flex-col justify-center md:justify-between gap-4 md:gap-8 !p-4 md:!mt-0 !mt-12 md:!p-20">
                     <div className='flex flex-col justify-cente items-center md:items-start md:text-left text-center md:w-1/2 w-full  gap-4'>
-                        <nav className='bg-white border-2 !p-2 rounded-md w-20'><p className='text-[#333333] text-sm'>Overview</p></nav>
+                        <div className='bg-white border-2 !p-2 rounded-md w-20'><p className='text-[#333333] text-sm'>Overview</p></div>
 
                         <h2 className='md:text-4xl text-[1.5rem] w-[70%] md:w-full font-bold !mt-4' style={{ fontFamily: 'var(--font-raleway)' }}>Welcome to Little Learners Academy</h2>
                     </div>
