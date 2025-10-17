@@ -19,7 +19,7 @@ const Visions: React.FC = () => {
     ]
 
     return (
-        <section className='md:!px-20 !px-4 h-full md:min-h-[calc(100vh-10rem)] w-full overflow-hidden'>
+        <section className='!p-4 md:!py-6 md:!px-16 w-full h-full md:min-h-[calc(100vh-10rem)] overflow-hidden'>
             <div className="flex flex-col items-center gap-4">
                 <nav className='bg-white border-2 !p-2 rounded-md'><p className='text-[#333333] text-sm' style={{ fontFamily: 'var(--font-raleway)' }}>Mission & Visions</p></nav>
                 <h1 className='md:text-5xl text-2xl font-bold font[var(--font-raleway)]' style={{ fontFamily: 'var(--font-raleway)' }}>Our Mission & Visions</h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Introduction: React.FC = () => {
     return (
-        <section className='!p-4 md:!py-8 w-full h-full md:min-h-[calc(100vh-10rem)] overflow-hidden'>
+        <section className='!p-4 md:!py-6 md:!px-16 w-full h-full md:min-h-[calc(100vh-10rem)] overflow-hidden'>
             <div className="bg-white w-full h-full relative border-2 border-black shadow-[7px_8px_4px_#000] rounded-lg">
                 <picture className='absolute top-0 left-0'>
                     <img className="w-32 " src="/public/images/Abstract Design.png" alt="abstract" loading="lazy" />
