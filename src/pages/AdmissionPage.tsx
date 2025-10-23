@@ -1,7 +1,9 @@
+import Introduction from "../components/admissions/Introduction"
+
 const AdmissionPage = () => {
     return (
         <div>
-            <h1>Admission Page</h1>
+            <Introduction />
         </div>
     )
 }
