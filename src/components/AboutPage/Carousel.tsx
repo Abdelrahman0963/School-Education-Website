@@ -66,7 +66,7 @@ const Carousel: React.FC = () => {
                         {awardsData.map((award, index) => (
                             <div
                                 key={index}
-                                className="relative flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%]  bg-white rounded-lg border-2 border-black shadow-[5px_5px_0_#000] !p-6  flex flex-col items-center text-center "
+                                className="relative flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%]  bg-white rounded-lg border-2 border-black shadow-[5px_5px_0_#000] !p-4.5  flex flex-col items-center text-center "
                             >
                                 <div className="flex flex-col items-center !p-6">
                                     <div className="text-[#333333] absolute left-4 z-50 -top-5 !p-1 rounded-md border-2 border-black bg-[var(--tertiary-color)]">{award.icon}</div>

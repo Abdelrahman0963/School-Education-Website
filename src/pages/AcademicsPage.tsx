@@ -1,7 +1,9 @@
-const AcademicsPage = () => {
+import Introduction from "../components/academics/Introduction"
+
+const AcademicsPage: React.FC = () => {
     return (
         <div>
-            <h1>Academics Page</h1>
+            <Introduction />
         </div>
     )
 }
