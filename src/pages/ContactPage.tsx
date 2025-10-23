@@ -1,7 +1,9 @@
+import Introduction from "../components/ContactPage/Introduction"
+
 const ContactPage = () => {
     return (
         <div>
-            <h1>Contact Page</h1>
+            <Introduction />
         </div>
     )
 }
